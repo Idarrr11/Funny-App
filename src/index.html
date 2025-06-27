@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/favicon.png" />
+
+    <link rel="manifest" href="/app.webmanifest" type="application/manifest+json" />
+    <meta name="theme-color" content="#1976d2" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="/images/logo.png" />
+
+    <title>Funny App</title>
+    <script type="module" src="/scripts/index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <button id="skip-link" class="skip-link">Menuju konten utama</button>
+
+      <div class="main-header container">
+        <a href="#/" class="logo">
+          <i class="fas fa-book-open"></i>
+          <span>Funny App</span>
+        </a>
+
+        <nav id="navigation-drawer" class="navigation-drawer">
+          <ul id="navlist-main" class="navigation-drawer__navlist-main"></ul>
+          <ul id="navlist" class="navigation-drawer__navlist"></ul>
+        </nav>
+        
+        <button type="button" title="Drawer Button" id="drawer-button" class="drawer-button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main id="main-content" class="main-content" tabindex="-1"></main>
+
+    <footer role="contentinfo" class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="social-links">
+            <a href="https://www.instagram.com/idarrr.329/" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com/in/idarrr11" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <p class="copyright">&copy; 2025 Dicoding Stories by Haidar Taqy.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
